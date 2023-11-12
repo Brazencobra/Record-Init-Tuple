@@ -6,6 +6,19 @@ namespace Flowers
     {
         static void Main(string[] args)
         {
+            /*Flower recordu olur və onun Name, Color, Price propları olur.
+            Bucket classında isə Flower, FlowerCount, DiscountPercent propları
+            GetTotalPrice() və AddFlower() methodları olur.
+
+            AddFlower methodu Flower tipindən obyekt qəbul edir və əgər göndərilən flower Bucket obyektindəki
+            Flower-ə bərabərdirsə onda Count propertysi 1 vahid artır.
+            Bərabər deyilsə əlavə olunmur.
+            Daha sonra Bucket obyektinin TotalPrice methodu isə
+            çağırılan zaman yekun məbləği istifadəçiyə qaytarsın.
+            (Əgər TotalPrice çağırılan zaman obyektdə Flower var idisə onda
+            Endirim nəzərə alınmış qiymət və true qaytarsin(tuple).
+            Əks halda (Flower əlavə olunmayıbsa) 0 və false qaytarsın)*/
+
             Flower flower1 = new Flower("Rose","White",10);
             Flower flower2 = new Flower("Lily","White",5);
             Flower flower3 = new Flower("Tulip","Red",8);
